@@ -344,7 +344,7 @@ body html{
 
 .cta-button:hover {
    background-color: #106032;
-   transition: #106032 0.3s ease; ;
+   transition: #106032 0.3s ease;
 }
 
 .image-wrapper {
@@ -360,3 +360,74 @@ body html{
 }
 
 /* Focus section end */
+
+
+/* contact section start */
+
+.contact-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20%;
+  background-color: #f6f9ff;
+  padding: 50px;
+  border-radius: 14px;
+}
+
+.contact-left {
+  width: 50%;
+}
+
+.contact-left h1 {
+  font-size: 97px;
+  color: rgb(0, 0, 0);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.contact-right {
+  width: 55%;
+}
+
+.contact-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 50%;
+  margin: 0 auto;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: rgb(78, 71, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  width: 50%;
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.contact-form button:hover{
+  background-color: #106032;
+   transition: #106032 0.3s ease;
+}
+
+/* contact section end */
