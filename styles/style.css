@@ -305,10 +305,13 @@ body html{
 
 .focus-section {
   background-color: rgb(255, 255, 255);
-  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   border-radius: 14px;
+  
 }
 
 .focus-section .container {
@@ -318,8 +321,10 @@ body html{
 
 .section-title {
   font-size: 50px;
-  font-weight: 700;
+  font-weight: bolder;
   color: rgb(0, 0, 0);
+  padding: 30px;
+  margin-right: 70px;
   margin-bottom: 16px;
 }
 
@@ -332,7 +337,7 @@ body html{
 .cta-button {
   display: inline-block;
   background-color: rgb(78, 71, 255);
-  color: #fff;
+  color: #fffbfb;
   padding: 12px 24px;
   border-radius: 8px;
   font-size: 14px;
@@ -380,7 +385,7 @@ body html{
 }
 
 .contact-left h1 {
-  font-size: 97px;
+  font-size: 80px;
   color: rgb(0, 0, 0);
   font-weight: 700;
   line-height: 1.2;
@@ -403,8 +408,8 @@ body html{
   margin: 0 auto;
   padding: 12px 15px;
   margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  border: 1px solid #e3e3e3;
+  border-radius: 10px;
   font-size: 14px;
 }
 
@@ -423,11 +428,57 @@ body html{
   font-size: 16px;
   border-radius: 10px;
   cursor: pointer;
+
 }
+
 
 .contact-form button:hover{
   background-color: #106032;
-   transition: #106032 0.3s ease;
+  transition: #106032 0.5s ease-in-out;
 }
 
 /* contact section end */
+
+
+/* Footer Section start */
+
+.footer {
+  text-align: center;
+  padding: 70px 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer h2 {
+  color: rgb(78, 71, 255);
+  font-size: 100px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: rgb(137, 135, 161);
+  font-size: 16px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer nav a {
+  margin: 0 10px;
+  color: rgb(137, 135, 161);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.footer nav a:hover {
+  text-decoration: underline ;
+   background-color: #0d291a;
+   transition: #0b3c20 0.3s ease-in-out;
+}
+
+
+/* Footer Section end */
