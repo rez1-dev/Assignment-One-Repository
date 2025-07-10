@@ -171,5 +171,192 @@ body html{
   box-shadow: 0 6px 18px rgba(7, 7, 7, 0.15);
 }
 
+
 /* Action Section End */
 
+
+/* Productive Users Section Start */
+.users-section {
+  background-color: #f5f8ff;
+  padding: 60px 20px;
+}
+
+.users-content {
+  background-color: #dadbdd;
+  border-radius: 20px;
+  padding: 40px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.users-content h2 {
+  font-size: 45px;
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+  margin-bottom: 30px;
+  gap : 30px;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.stat-box h3 {
+  font-size: 40px;
+  color: rgb(78, 71, 255);
+  font-family: sans-serif;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.stat-box p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+}
+
+/* Productive Users Section Ends */
+
+
+/* Users  feedback section start */
+.feedback-section {
+  background-color: #f3f7fe;
+  padding: 70px;
+}
+
+.feedback-title {
+  text-align: center;
+  font-size: 42px;
+  color: rgb(37, 36, 50);
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.feedback-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: #fafafa;
+  padding: 24px;
+  border-radius: 12px;
+  width: 30%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.stars {
+  color: #fbbf24; /* Golden yellow */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+  color: rgb(30, 30, 30);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: rgb(30, 30, 30);
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+}
+
+.reviewer-img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.reviewer-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviewer-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(117, 117, 117);
+}
+
+.reviewer-date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+
+/* Users  feedback section end */
+
+
+/* Focus section */
+
+.focus-section {
+  background-color: rgb(255, 255, 255);
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  border-radius: 14px;
+}
+
+.focus-section .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 50px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 32px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: rgb(78, 71, 255);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+}
+
+.cta-button:hover {
+   background-color: #106032;
+   transition: #106032 0.3s ease; ;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.image-wrapper img {
+  width: 100%;
+  max-width: 720px;
+  border-radius: 24px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Focus section end */
