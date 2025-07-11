@@ -111,7 +111,7 @@ body html{
 /* Action Section start */
 
 .action-section {
-  background-color: #f5f8ff;
+  background-color: rgb(245, 248, 255);
   padding: 60px 20px;
   margin-bottom: 60px; /* gap between sections */
 }
@@ -123,12 +123,11 @@ body html{
   align-items: center;
   justify-content: space-between;
   gap: 40px;
-  flex-wrap: wrap;
 }
-
 .left-content {
   flex: 1;
   min-width: 280px;
+  gap: 20px;
 }
 
 .left-content h2 {
@@ -146,8 +145,9 @@ body html{
 }
 
 .preview-button {
-  background-color: #4f46e5;
-  color: #fff;
+  background-color: rgb(78, 71, 255);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
   padding: 12px 20px;
   border-radius: 6px;
   text-decoration: none;
@@ -324,6 +324,7 @@ body html{
 .section-title {
   font-size: 50px;
   font-weight: bolder;
+  text-align: center;
   color: rgb(0, 0, 0);
   padding: 30px;
   margin-right: 70px;
@@ -334,15 +335,15 @@ body html{
   font-size: 16px;
   color: rgba(0, 0, 0, 0.5);
   margin-bottom: 32px;
-}
+text-align: center;}
 
 .cta-button {
   display: inline-block;
   background-color: rgb(78, 71, 255);
   color: #fffbfb;
-  padding: 12px 24px;
+  padding: 12px 23px;
   border-radius: 8px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -354,12 +355,12 @@ body html{
    transition: #106032 0.3s ease;
 }
 
-.image-wrapper {
+.focus-image {
   display: flex;
   justify-content: center;
 }
 
-.image-wrapper img {
+.focus-image img {
   width: 100%;
   max-width: 720px;
   border-radius: 24px;
@@ -374,16 +375,17 @@ body html{
 .contact-section {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
-  gap: 20%;
-  background-color: #f6f9ff;
+  gap: 25%;
+  background-color: rgb(255, 255, 255);
   padding: 50px;
   border-radius: 14px;
 }
 
 .contact-left {
   width: 50%;
+  margin: 0 auto;
 }
 
 .contact-left h1 {
@@ -394,29 +396,31 @@ body html{
 }
 
 .contact-right {
-  width: 55%;
+  width: 50%;
+
 }
 
 .contact-form label {
   display: block;
   font-size: 18px;
   margin-bottom: 5px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .contact-form input,
 .contact-form textarea {
   width: 50%;
   margin: 0 auto;
+  font-family: sans-serif;
   padding: 12px 15px;
   margin-bottom: 20px;
   border: 1px solid #e3e3e3;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .contact-form textarea {
-  resize: vertical;
+  resize:horizontal;
   height: 100px;
 }
 
