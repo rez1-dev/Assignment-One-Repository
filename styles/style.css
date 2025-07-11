@@ -12,7 +12,7 @@ body html{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  max-width: 1440px;
+  max-width: 1350px;
 }
 
 
@@ -28,8 +28,8 @@ body html{
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
-  width: 1350px;
-  height: 698px;
+  width: 1360px;
+  height: 650px;
   color: rgb(37, 36, 50);
   display: flex;
   flex-direction: column;
@@ -112,7 +112,7 @@ body html{
 /* Action Section start */
 
 .action-section {
-  background-color: rgb(245, 248, 255);
+  background-color: rgb(255, 255, 255);
   padding: 60px 20px;
   margin-bottom: 60px; /* gap between sections */
 }
@@ -179,7 +179,7 @@ body html{
 
 /* Productive Users Section Start */
 .users-section {
-  background-color: #f5f8ff;
+  background-color: rgb(255, 255, 255);
   padding: 60px 20px;
 }
 
@@ -226,7 +226,7 @@ body html{
 
 /* Users  feedback section start */
 .feedback-section {
-  background-color: #f3f7fe;
+  background-color: rgb(255, 255, 255);
   padding: 70px;
 }
 
@@ -245,11 +245,11 @@ body html{
 }
 
 .feedback-card {
-  background-color: #fafafa;
+  background-color: #ffffff;
   padding: 24px;
   border-radius: 12px;
   width: 30%;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.07);
 }
 
 .stars {
