@@ -44,7 +44,7 @@ body html{
 
 .logo {
   font-weight: bold;
-  color: #4f46e5;
+  color: rgb(78, 71, 255);
   font-weight: 900;
   font-size: 34px;
   padding: 5px 10px;
@@ -464,6 +464,7 @@ text-align: center;}
 .footer p {
   color: rgb(137, 135, 161);
   font-size: 16px;
+  font-weight: 600;
   margin-bottom: 20px;
   max-width: 500px;
   margin-left: auto;
@@ -475,7 +476,7 @@ text-align: center;}
   color: rgb(137, 135, 161);
   text-decoration: none;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: 700;
   border: 1px solid white;
   border-radius: 5px;
 }
@@ -483,7 +484,7 @@ text-align: center;}
 .footer nav a:hover {
   text-decoration: underline ;
    background-color: #0d291a;
-   transition: #0b3c20 0.3s ease-in-out;
+   transition: #0a512d 0.3s ease-in-out;
 }
 
 
