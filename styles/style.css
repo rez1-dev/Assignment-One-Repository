@@ -45,6 +45,7 @@ body html{
 .logo {
   font-weight: bold;
   color: #4f46e5;
+  font-weight: 900;
   font-size: 34px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -287,14 +288,15 @@ body html{
 }
 
 .reviewer-name {
-  font-size: 16px;
-  font-weight: 600;
-  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(91, 91, 91);
 }
 
 .reviewer-date {
-  font-size: 12px;
-  color: #aaa;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(91, 91, 91);
 }
 
 
